@@ -5,6 +5,7 @@ hwb = waitbar(0,'开始了哦','Name','MATLAB进度条测试1');
 
 %% 算法
 iter = 500;
+tic
 tstart = tic;
 for i = 1:iter
     % 核心算法
